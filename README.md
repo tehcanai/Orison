@@ -1,3 +1,3 @@
 # Orison
 
-A simple backend server with Flaskr for a university course.
+A simple messaging server with Flaskr for a university course.
