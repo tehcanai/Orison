@@ -11,7 +11,7 @@ def posts_status():
     available = db.execute('SELECT * FROM post').fetchone()
 
     if available is None :
-        return "No posts"
+        return "No posts. Please add new posts."
     else :
         posts = []
         for post in query_db('SELECT * FROM post'):
