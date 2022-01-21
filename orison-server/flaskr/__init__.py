@@ -17,7 +17,7 @@ def create_app(test_config=None):
 
     @app.route('/')
     def hello_status():
-      return "Hello, I'm Online!"
+      return "Hello, I'm On! What will it be today?"
 
     from . import db
     db.init_app(app)
