@@ -1,3 +1,3 @@
 # Orison
 
-A simple messaging server with Flaskr for a university course.
+A simple post-it note software.
